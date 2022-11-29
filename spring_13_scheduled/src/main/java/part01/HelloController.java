@@ -18,6 +18,7 @@ public class HelloController {
 		return "part01/form";
 	}
 	
+	//특정페이지에서 스케줄러를 출력하겠다하면 아래와 같이 하면된다.
 	//@Scheduled(fixedDelay=1000)
 	public void scheduledProcess() {
 		System.out.println(new Date() + "스케줄링 처리완료" );
